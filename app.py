@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Flask service executed successfully !!!"
+    return "Flask service demo."
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
